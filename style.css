@@ -1,0 +1,58 @@
+.heading
+{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.note
+{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Special Elite',cursive;
+}
+
+.name{
+    font-size: 23px;
+}
+
+.copy_right_footer{
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(230, 170, 170);
+    position: fixed;
+    width: 100%;
+}
+
+
+body
+{
+    background-size: cover;
+}
+
+
+#song
+{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', cursive, Verdana, sans-serif;
+}
+
+canvas
+{
+    border: 5px solid rgb(248, 217, 217);
+    border-radius: 20px;
+}
+
+video{
+    animation-name: glow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow{
+    from{box-shadow: 1px 1px 1px red;}
+    to{box-shadow: 5px 5px 5px blue;}
+}
+
